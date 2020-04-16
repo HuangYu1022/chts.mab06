@@ -21,7 +21,7 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` Verify Certificate
+**Bold** and _Italic_ and `Code` test
 
 [Link](url) and ![Image](src)
 ```
