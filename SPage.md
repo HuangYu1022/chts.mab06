@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Verification Screen
 
 You can use the [editor on GitHub](https://github.com/HuangYu1022/chts.mab06/edit/gh-pages/SPage.md) to maintain and preview the content for your website in Markdown files.
 
@@ -35,3 +35,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Linking to [Homepage](index.md)
