@@ -50,8 +50,10 @@ h6 {
 
 h1,
 h2,
+h3,
 h4,
 h5,
+.h1,
 .h2,
 .h3,
 .h4,
@@ -70,9 +72,15 @@ h6,
 	font-family: 'Montserrat', sans-serif;
 }
 
-.h3,
 .title {
+	color: white;
+	font-size: 50px;
+}
+
+.sub-title {
 	color: #149858;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;	
 }
 
 .content {
@@ -99,7 +107,12 @@ h6,
 	.content_img {
 		margin: 0 auto 3% auto;
 		max-width: 60%;
-	}	
+	}
+	h2, 
+	.h2,
+	.title {
+		font-size: 28px;
+	}
 }
 
 .content-center {
@@ -272,13 +285,13 @@ margin, padding
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
-	color: inherit;
+	/* color: inherit; */
 	background-image: linear-gradient(60deg, #156091 0%, #149858 100%);
   }
-  .jumbotron h1,
+  /* .jumbotron h1,
   .jumbotron .h1 {
 	color: inherit;
-  }
+  } */
   .jumbotron p {
 	margin-bottom: 15px;
 	font-size: 21px;
