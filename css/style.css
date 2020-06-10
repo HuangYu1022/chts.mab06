@@ -71,21 +71,90 @@ h6,
 }
 
 .h3,
-.content {
+.title {
 	color: #149858;
 }
 
-/* .div,
-.content {	
-	text-align: left;
-	margin-left: 15%;
-} */
+.content {
+	text-align: justify;
+	padding: 5% 5%;
+}
 
-.content-left {
-	text-align: left;
+/* max-: 數字以下(包含)都適用
+   min-: 數字以上(包含)都適用 */
+@media (max-width: 996px) {
+	.permit_img {
+		margin: 0 auto 3% auto;
+		max-width: 50%;
+	}
+	.content_img {
+		margin: 0 auto;
+		max-width: 70%;
+	}
+	.auth_img {
+		padding-top: 3%;
+	}
+}
+@media (max-width: 768px) {
+	.content_img {
+		margin: 0 auto 3% auto;
+		max-width: 60%;
+	}	
+}
+
+.content-center {
+	text-align: center;
 	font-size: 15px; 
 	font-weight: bold; 
 	color: #606C71;
+}
+
+.p-content {
+	text-align: left;
+	color: #606C71;
+}
+
+@media (max-width: 768px) {
+	.p-content {
+		text-align: center;
+	}
+}
+
+/* rainbow line */
+.box {
+	display: flex;
+	width: 100%;
+	height: 8px;
+	margin-bottom: 5px;
+}
+.box-sm {
+	height: 3px;
+	margin: 0;
+	flex-grow: 1;
+	transition: all .8s ease-in-out;
+	cursor: pointer;
+}
+/* Growing the width of box, when hover using flex-grow property */
+.box-sm:hover {
+	flex-grow: 12;
+}
+.red {
+	background-color: #FF5852;
+}
+.orange {
+	background-color: #FF9000;
+}
+.yellow {
+	background-color: #FFD300;
+}
+.green {
+	background-color: #3DCD49;
+}
+.blue {
+	background-color: #0089D7;
+}
+.purple {
+	background-color: #9E44C4;
 }
 
 .lead {
