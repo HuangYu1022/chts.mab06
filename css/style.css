@@ -88,6 +88,14 @@ h6,
 	padding: 5% 5%;
 }
 
+.content-center {
+	text-align: center;
+	font-size: 15px; 
+	font-weight: bold; 
+	color: #606C71;
+}
+
+
 /* max-: 數字以下(包含)都適用
    min-: 數字以上(包含)都適用 */
 @media (max-width: 996px) {
@@ -114,12 +122,39 @@ h6,
 		font-size: 28px;
 	}
 }
+.p {
+    display: block;
+}
 
-.content-center {
-	text-align: center;
-	font-size: 15px; 
-	font-weight: bold; 
-	color: #606C71;
+@media (max-width: 568px) {
+	.content_img {
+		margin: 0 auto 3% auto;
+		max-width: 60%;
+	}
+	h1,
+	.h1 {
+		font-size: 25px;
+	}
+	h2, 
+	.h2 {
+		font-size: 16px;
+	}		
+	h3,
+	.h3,	
+	.title {
+		font-size: 20px;
+	}
+	h4,
+	.h4 {
+		font-size: 18px;
+	}
+	.content-center {
+		font-size: 10px;
+		
+	}
+	h2.text-line {
+		line-height: 0.1;
+	}
 }
 
 .p-content {
